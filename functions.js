@@ -1,6 +1,6 @@
 const saveContact = (db, contact) => {
     db.setItem(contact.id, JSON.stringify(contact))
-    window.location.href = '/'
+    //window.location.href = '/'
 
 }
 const loadContacts = (db, parentNode) => {
